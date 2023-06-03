@@ -10,6 +10,22 @@
         background: #f3f5fc;
     }
 
+    .logo img {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        max-width: 100px;
+        top: 1%;
+        left: 1%;
+        font-size: 10%;
+        text-decoration: none;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+        line-height: 2em;
+        
+    }
     .texto {
         position: absolute;
         width: 42%;
@@ -64,7 +80,7 @@
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        padding: 1% 0;
+        padding: 1.5% 0;
         position: absolute;
         width: 80%;
         left: 12%;
@@ -105,12 +121,15 @@
         text-align: center;
         color: #0A3871;
     }
-
-    .btn-desencriptar:hover,
-    .btn-encriptar:hover {
+        .btn-encriptar,
+        .btn-desencriptar {
+         margin: 10px;
+    }
+        .btn-desencriptar:hover,
+        .btn-encriptar:hover {
         margin: 0.3%;
         width: 24.5%;
-        padding: 1.8%;
+        padding: 2.8%;
     }
 
     .encriptado {

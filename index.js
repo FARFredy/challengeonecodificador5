@@ -1,6 +1,6 @@
 function encriptar() {
     let texto = document.getElementById("texto").value;
-    let tituloMensaje = document.getElementById("titulo-mensaje");
+    let tituloMensaje = document.getElementById("mensaje-encriptado");
     let parrafo = document.getElementById("parrafo");
     let muñeco = document.getElementById("muñeco");
   
@@ -27,7 +27,7 @@ function encriptar() {
 
     function desencriptar() {
         let texto = document.getElementById("texto").value;
-        let tituloMensaje = document.getElementById("titulo-mensaje");
+        let tituloMensaje = document.getElementById("mensaje-encriptado");
         let parrafo = document.getElementById("parrafo");
         let muñeco = document.getElementById("muñeco");
       
